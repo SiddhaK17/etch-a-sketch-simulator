@@ -1,24 +1,28 @@
-import os
-os.environ['TCL_LIBRARY'] = r'C:\Program Files\Python313\tcl\tcl8.6'
-os.environ['TK_LIBRARY'] = r'C:\Program Files\Python313\tcl\tk8.6'
-
 from turtle import Turtle, Screen
+MOVE_DISTANCE = 10
+TURN_ANGLE = 10
 
 timmy_the_turtle = Turtle()
+timmy_the_turtle.speed("fastest")
 screen = Screen()
+screen.title("Etch-a-Sketch Simulator")
 
 def move_forwards():
-    timmy_the_turtle.forward(10)
+    # timmy_the_turtle.forward(10)
+    timmy_the_turtle.forward(MOVE_DISTANCE)
 
 def move_backwards():
-    timmy_the_turtle.backward(10)
+    # timmy_the_turtle.backward(10)
+    timmy_the_turtle.backward(MOVE_DISTANCE)
 
 def turn_left():
-    new_heading = timmy_the_turtle.heading() + 10
+    # new_heading = timmy_the_turtle.heading() + 10
+    new_heading = timmy_the_turtle.heading() + TURN_ANGLE
     timmy_the_turtle.setheading(new_heading)
 
 def turn_right():
-    new_heading = timmy_the_turtle.heading() - 10
+    # new_heading = timmy_the_turtle.heading() - 10
+    new_heading = timmy_the_turtle.heading() - TURN_ANGLE
     timmy_the_turtle.setheading(new_heading)
 
 def clear():
@@ -27,6 +31,13 @@ def clear():
     timmy_the_turtle.home()
     timmy_the_turtle.pendown()
 
+
+# Keyboard Controls
+# W -> Forward
+# S -> Backward
+# A -> Turn Left
+# D -> Turn Right
+# C -> Clear Canvas
 
 screen.listen()
 screen.onkey(move_forwards, "w")
