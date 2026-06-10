@@ -22,7 +22,7 @@ Beyond its playful surface, this project teaches key principles of procedural an
 | **GUI Library**  | `turtle` module — for real-time graphical output and interactive visuals    |
 | **Input Handling**| `Screen.onkey()` — to capture and map keyboard inputs to turtle actions     |
 | **OOP Principles**| Utilizes the `Turtle` class to instantiate and control the drawing cursor   |
-| **Event-Driven Architecture** | Responds to keyboard inputs to control drawing flow in real time  |
+| **Event-Driven Architecture** | Responds instantly to keyboard inputs through event listeners, enabling real-time drawing and interaction |
 | **Cross-Platform Support** | Runs on any OS with Python and Tkinter support                    |
 
 Additional environment configurations are used to ensure smooth execution on Windows systems by setting `TCL_LIBRARY` and `TK_LIBRARY` paths for `tkinter` dependencies.
@@ -107,14 +107,14 @@ Below is a glimpse of the Etch-a-Sketch Simulator in action. The screenshot show
 - 🎯 **Interactive Drawing Experience**  
   Brings the nostalgic Etch-a-Sketch toy to life with real-time keyboard controls for an engaging and intuitive drawing experience.
 
-- 🚀 **Keyboard-Based Navigation**  
-  Designed with custom key bindings (W, A, S, D) for fluid movement in all directions, allowing for precise control and smooth line rendering.
+- 🚀 **Responsive Keyboard-Based Navigation**  
+  Designed with custom key bindings (W, A, S, D) and optimized turtle rendering for fluid movement, smooth line drawing, and precise directional control in real time.
 
 - ♻️ **Dynamic Canvas Reset**  
   Instantly clear the drawing and reposition the turtle to its origin using the `C` key — enabling quick restarts without restarting the program.
 
-- 🧠 **Logic-Driven Design**  
-  Implements structured logic for movement and rotation using heading manipulation instead of fixed angles, promoting flexibility in directional control.
+- 🧠 **Logic-Driven Directional Control**  
+  Implements structured movement and rotation logic using configurable distance and angle constants, making the simulator easier to maintain, customize, and extend.
 
 - 🛠️ **Lightweight & Minimalistic**  
   Built with Python’s built-in `turtle` and `tkinter` libraries — no third-party dependencies required, ensuring simplicity and compatibility.
