@@ -63,7 +63,7 @@ Etch-A-Sketch-Simulator/
 
 1. Install the required dependencies (if not already present):
    ```bash
-   pip install turtle
+   Turtle Graphics is included with Python's standard library and does not require separate installation.
    ```
 
 2. **Clone the repository**
