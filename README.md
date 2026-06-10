@@ -46,7 +46,7 @@ The simulator responds instantly to key presses, allowing users to draw seamless
 ## 📁 Project Structure
 
 ```
-etch-a-sketch-simulator/
+Etch-A-Sketch-Simulator/
     ├── main.py     # Core application logic
     ├── README.md   # Project documentation
 ```
@@ -68,12 +68,12 @@ etch-a-sketch-simulator/
 
 2. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/etch-a-sketch-simulator.git
+   git clone https://github.com/your-username/Etch-A-Sketch-Simulator.git
    ```
 
 3. **Navigate to the project folder**
    ```bash
-   cd etch-a-sketch-simulator
+   cd Etch-A-Sketch-Simulator
    ```
 
 > 💡 **Optional – Windows Only:** If you encounter errors related to `TCL_LIBRARY` or `TK_LIBRARY`, ensure that your Python installation's Tcl paths are correctly set using `os.environ` at the beginning of your script:
